@@ -7,6 +7,8 @@ import Industries from './components/Industries';
 import Presence from './components/Presence';
 import Footer from './components/Footer';
 
+
+
 function App() {
   return (
     <div className="min-h-screen bg-primary">
