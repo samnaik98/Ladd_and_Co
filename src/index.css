@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-dark font-sans antialiased selection:bg-accent-green selection:text-dark;
+  }
+}
+
+@font-face {
+  font-family: 'PP Eiko';
+  src: url('/fonts/PPEiko-Regular.woff2') format('woff2'),
+       local('Georgia');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Eiko';
+  src: url('/fonts/PPEiko-Medium.woff2') format('woff2'),
+       local('Georgia');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Eiko';
+  src: url('/fonts/PPEiko-LightItalic.woff2') format('woff2'),
+       local('Georgia');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
